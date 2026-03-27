@@ -1,3 +1,8 @@
+"""
+Flask server for Emotion Detection Application.
+Handles user input and returns detected emotions.
+"""
+
 from flask import Flask, request
 from EmotionDetection import emotion_detector
 
